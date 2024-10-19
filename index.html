@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Brasil - A qualidade e o sabor que todo mundo ama</title>
+    <link rel="website icon" href="/assets/images/logo/logo.png">
+    <link rel="stylesheet" href="/assets/src/css/main.css">
+    <link rel="stylesheet" href="/assets/src/css/media-queries.css">
+    <link rel="stylesheet" href="/assets/src/css/root.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo__coffee">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                    <path d="M18.2505 10.5H19.6403C21.4918 10.5 22.0421 10.7655 21.9975 12.0838C21.9237 14.2674 20.939 16.8047 17 17.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                    <path d="M5.94627 20.6145C2.57185 18.02 2.07468 14.3401 2.00143 10.5001C1.96979 8.8413 2.45126 8.5 4.65919 8.5H15.3408C17.5487 8.5 18.0302 8.8413 17.9986 10.5001C17.9253 14.3401 17.4281 18.02 14.0537 20.6145C13.0934 21.3528 12.2831 21.5 10.9194 21.5H9.08064C7.71686 21.5 6.90658 21.3528 5.94627 20.6145Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                    <path d="M11.3089 2.5C10.7622 2.83861 10.0012 4 10.0012 5.5M7.53971 4C7.53971 4 7 4.5 7 5.5M14.0012 4C13.7279 4.1693 13.5 5 13.5 5.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                Coffee Brasil
+            </a>
+            <div class="overlay"></div>
+            <ul class="navigation" id="menu">
+                <li>
+                    <a href="#" class="navlink">Início</a>
+                </li>
+                <li>
+                    <a href="#sobre-nos" class="navlink">Sobre</a>
+                </li>
+                <li>
+                    <a href="#menu" class="navlink">Menu</a>
+                </li>
+                <li>
+                    <a href="#avaliacoes" class="navlink">Avaliações</a>
+                </li>
+                <li>
+                    <a href="#contatos" class="navlink">Contatos</a>
+                </li>
+            </ul>
+            <div class="navbar__right">
+                <div class="searchBox">
+                    <input class="search-input" type="search" placeholder="Buscar" />
+                    <i class='bx bx-search search-icon'></i>
+                </div>
+                <div class="burger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+                        <path d="M4 5L20 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M4 12L20 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M4 19L20 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div class="close">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+                        <path d="M19.0005 4.99988L5.00049 18.9999M5.00049 4.99988L19.0005 18.9999" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="slider__container">
+        <div class="swiper slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <img src="/assets/images/carrossel/coffee-shop.jpg" alt="Xicara de café" class="slide__image" />
+                    <section class="slide__content">
+                        <h2>Coffee Brasil</h2>
+                        <h3>A qualidade e o sabor que todo mundo ama</h3>
+                        <div class="buttons">
+                            <a href="#sobre-nos">Saber mais</a>
+                        </div>
+                    </section>
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="/assets/images/carrossel/cappuccino.jpg" alt="Cappuccino" class="slide__image" />
+                    <section class="slide__content">
+                        <h2>Melhores cafés e cappuccinos</h2>
+                        <div class="buttons">
+                            <a href="#menu">Saber mais</a>
+                        </div>
+                    </section>
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="/assets/images/carrossel/clientes.jpeg" alt="Clientes" class="slide__image" />
+                    <section class="slide__content">
+                        <h2>Avaliações dos nossos clientes</h2>
+                        <div class="buttons">
+                            <a href="#avaliacoes">Saber mais</a>
+                        </div>
+                    </section>
+                </div>
+            </div>
+                <div class="slide-button-next slider-arrows">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M13.1717 12.0007L8.22192 7.05093L9.63614 5.63672L16.0001 12.0007L9.63614 18.3646L8.22192 16.9504L13.1717 12.0007Z"></path>
+                    </svg>
+                </div>
+                <div class="slide-button-prev slider-arrows">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M10.8284 12.0007L15.7782 16.9504L14.364 18.3646L8 12.0007L14.364 5.63672L15.7782 7.05093L10.8284 12.0007Z"></path>
+                    </svg>
+                </div>
+            <div class="swiper-pagination slider-pagination"></div>
+        </div>
+        <div class="shape-slider">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </main>
+
+    <section class="about__container" id="sobre-nos">
+        <div class="about__content">
+            <h2 class="title">Sobre a Coffee Brasil</h2>
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet consectetur magnam tenetur aspernatur dolorum quos? Repudiandae eum provident voluptatem vitae!</p>
+        </div>
+        <img src="/assets/images/sobre-nos/barista-preparando-cafe-expresso.jpg" alt="Cafeteria" class="about__image" />
+    </section>
+
+    <section class="hero__image">
+        <div class="hero__image__content">
+            <h1 class="title">Coffee Brasil</h1>
+            <h3 class="subtitle">Os melhores cafés e cappuccino</h3>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <h2 class="heading">Menu</h2>
+        <div class="buttons-filter">
+            <button class="btn filter-active" data-filter="todos">Todos</button>
+            <button class="btn" data-filter="cafe">Cafés</button>
+            <button class="btn" data-filter="paes">Pães</button>
+            <button class="btn" data-filter="salgados">Salgados</button>
+            <button class="btn" data-filter="Doces">Doces</button>
+        </div>
+        <div class="menu__wrapper">
+            <div class="menu__card" data-filter="cafe">
+                <div class="menu__card__image">
+                    <img src="/assets/images/menu/cafe-no-copo.png" alt="Café no copo" />
+                </div>
+                <div class="menu__card__content">
+                    <div class="content-inner">
+                        <h2 class="title-card">Café expresso no copo</h2>
+                        <span>R$ 4,50</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu__card" data-filter="cafe">
+                <div class="menu__card__image">
+                    <img src="/assets/images/menu/cafe-expresso.png" alt="Café expresso" />
+                </div>
+                <div class="menu__card__content">
+                    <div class="content-inner">
+                        <h2 class="title-card">Café expresso</h2>
+                        <span>R$ 2,50</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu__card" data-filter="cafe">
+                <div class="menu__card__image">
+                    <img src="/assets/images/menu/cappuccino.png" alt="Cappuccino" />
+                </div>
+                <div class="menu__card__content">
+                    <div class="content-inner">
+                        <h2 class="title-card">Cappuccino</h2>
+                        <span>R$ 1,50</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu__card" data-filter="paes">
+                <div class="menu__card__image">
+                    <img src="/assets/images/menu/pao-na-chapa.png" alt="Pão na chapa" />
+                </div>
+                <div class="menu__card__content">
+                    <div class="content-inner">
+                        <h2 class="title-card">Pão na chapa</h2>
+                        <span>R$ 3,50</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu__card" data-filter="paes">
+                <div class="menu__card__image">
+                    <img src="/assets/images/menu/pao-de-queijo.png" alt="Pão de queijo" />
+                </div>
+                <div class="menu__card__content">
+                    <div class="content-inner">
+                        <h2 class="title-card">Pão de queijo</h2>
+                        <span>R$ 1,50</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu__card" data-filter="salgados">
+                <div class="menu__card__image">
+                    <img src="/assets/images/menu/coxinha.png" alt="Coxinha" />
+                </div>
+                <div class="menu__card__content">
+                    <div class="content-inner">
+                        <h2 class="title-card">Coxinha</h2>
+                        <span>R$ 4,50</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu__card" data-filter="salgados">
+                <div class="menu__card__image">
+                    <img src="/assets/images/menu/croissant.png" alt="Croissant" />
+                </div>
+                <div class="menu__card__content">
+                    <div class="content-inner">
+                        <h2 class="title-card">Croissant</h2>
+                        <span>R$ 8,50</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu__card" data-filter="doces">
+                <div class="menu__card__image">
+                    <img src="/assets/images/menu/biscoitos-finos.png" alt="Biscoitos finos" />
+                </div>
+                <div class="menu__card__content">
+                    <div class="content-inner">
+                        <h2 class="title-card">Biscoitos finos</h2>
+                        <span>R$ 3,00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu__card" data-filter="doces">
+                <div class="menu__card__image">
+                    <img src="/assets/images/menu/cookies.png" alt="Cookies" />
+                </div>
+                <div class="menu__card__content">
+                    <div class="content-inner">
+                        <h2 class="title-card">Cookies</h2>
+                        <span>R$ 2,50</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero__section">
+        <div class="hero__section__inner">
+            <div class="hero__section__content">
+                <h2>Tenha uma ótima experiência na <span>Coffee Brasil</span></h2>
+                <p>Sinta-se a vontade na cafeteria com nosso cardápio, com os cafés e cappuccinos sensacionais.</p>
+            </div>
+            <img src="/assets/images/banner-two/ilustacao-de-uma-cafeteria.png" alt="Ilustração de uma cafeteria" class="image" />
+        </div>
+    </section>
+
+    <section class="testimonials" id="avaliacoes">
+        <h2 class="testimonials__heading">Avaliações dos clientes</h2>
+        <div class="swiper testimonials-carousel">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="testimonial__card">
+                        <div class="client__comment">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A autem numquam officia impedit laudantium perspiciatis similique, temporibus error itaque inventore aperiam mollitia quam iure possimus quae magnam. Iste, doloremque expedita.</p>
+                        </div>
+                        <img src="/assets/images/users/perfil.jpg" alt="Perfil" class="profile-img">
+                        <div class="box-top">
+                            <div class="profile">
+                                <h2>Roberta</h2>
+                            </div>
+                            <div class="stars">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z"></path></svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="testimonial__card">
+                        <div class="client__comment">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum magni, possimus sequi placeat quae quas nulla id explicabo dicta repudiandae maxime ipsam quibusdam debitis esse corrupti voluptatum ratione voluptas omnis.</p>
+                        </div>
+                        <img src="/assets/images/users/perfil2.jpg" alt="" class="profile-img">
+                        <div class="box-top">
+                            <div class="profile">
+                                <h2>Aline</h2>
+                            </div>
+                            <div class="stars">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z"></path></svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="testimonial__card">
+                        <div class="client__comment">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio voluptatem, repudiandae voluptatum magnam nesciunt sit ratione nihil rerum facere eos quos reprehenderit quasi doloribus iusto dolore animi sunt minima placeat.</p>
+                        </div>
+                        <img src="/assets/images/users/perfil3.jpg" alt="" class="profile-img">
+                        <div class="box-top">
+                            <div class="profile">
+                                <h2>Gabriela</h2>
+                            </div>
+                            <div class="stars">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z"></path></svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="testimonial__card">
+                        <div class="client__comment">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et facilis corrupti ullam odio blanditiis nam eligendi omnis laboriosam ipsam nisi fugiat illum quisquam amet maiores, est ex dolor natus dolorem!</p>
+                        </div>
+                        <img src="/assets/images/users/perfil4.jpg" alt="" class="profile-img">
+                        <div class="box-top">
+                            <div class="profile">
+                                <h2>Henrique</h2>
+                            </div>
+                            <div class="stars">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z"></path></svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="testimonial__card">
+                        <div class="client__comment">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, quis veniam architecto, beatae vel dolores quaerat similique voluptates harum omnis corrupti doloremque nostrum blanditiis perspiciatis, saepe nesciunt tempore ipsa? Alias.</p>
+                        </div>
+                        <img src="/assets/images/users/perfil5.jpg" alt="" class="profile-img">
+                        <div class="box-top">
+                            <div class="profile">
+                                <h2>Paulo</h2>
+                            </div>
+                            <div class="stars">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z"></path></svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="arrows">
+                <div class="testimonial-button-next testimonials-arrows">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                        <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/>
+                    </svg>
+                </div>
+                <div class="testimonial-button-prev testimonials-arrows">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                        <path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contatos">
+        <h2 class="heading-contact">Contatos</h2>
+        <div class="contact__inner">
+            <div class="contact__box">
+                <div class="box-location">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                        <path d="M18 18C19.2447 18.4244 20 18.9819 20 19.5925C20 20.9221 16.4183 22 12 22C7.58172 22 4 20.9221 4 19.5925C4 18.9819 4.75527 18.4244 6 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                        <path d="M15 9.5C15 11.1569 13.6569 12.5 12 12.5C10.3431 12.5 9 11.1569 9 9.5C9 7.84315 10.3431 6.5 12 6.5C13.6569 6.5 15 7.84315 15 9.5Z" stroke="currentColor" stroke-width="1.5" />
+                        <path d="M12 2C16.0588 2 19.5 5.42803 19.5 9.5869C19.5 13.812 16.0028 16.777 12.7725 18.7932C12.5371 18.9287 12.2709 19 12 19C11.7291 19 11.4629 18.9287 11.2275 18.7932C8.00325 16.7573 4.5 13.8266 4.5 9.5869C4.5 5.42803 7.9412 2 12 2Z" stroke="currentColor" stroke-width="1.5" />
+                    </svg>
+                    <span>Av. Duas quadras, Rua 001, ao lado de um prédio</span>
+                </div>
+                <div class="box-phone">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                        <path d="M9.1585 5.71223L8.75584 4.80625C8.49256 4.21388 8.36092 3.91768 8.16405 3.69101C7.91732 3.40694 7.59571 3.19794 7.23592 3.08785C6.94883 3 6.6247 3 5.97645 3C5.02815 3 4.554 3 4.15597 3.18229C3.68711 3.39702 3.26368 3.86328 3.09497 4.3506C2.95175 4.76429 2.99278 5.18943 3.07482 6.0397C3.94815 15.0902 8.91006 20.0521 17.9605 20.9254C18.8108 21.0075 19.236 21.0485 19.6496 20.9053C20.137 20.7366 20.6032 20.3131 20.818 19.8443C21.0002 19.4462 21.0002 18.9721 21.0002 18.0238C21.0002 17.3755 21.0002 17.0514 20.9124 16.7643C20.8023 16.4045 20.5933 16.0829 20.3092 15.8362C20.0826 15.6393 19.7864 15.5077 19.194 15.2444L18.288 14.8417C17.6465 14.5566 17.3257 14.4141 16.9998 14.3831C16.6878 14.3534 16.3733 14.3972 16.0813 14.5109C15.7762 14.6297 15.5066 14.8544 14.9672 15.3038C14.4304 15.7512 14.162 15.9749 13.834 16.0947C13.5432 16.2009 13.1588 16.2403 12.8526 16.1951C12.5071 16.1442 12.2426 16.0029 11.7135 15.7201C10.0675 14.8405 9.15977 13.9328 8.28011 12.2867C7.99738 11.7577 7.85602 11.4931 7.80511 11.1477C7.75998 10.8414 7.79932 10.457 7.90554 10.1663C8.02536 9.83828 8.24905 9.56986 8.69643 9.033C9.14586 8.49368 9.37058 8.22402 9.48939 7.91891C9.60309 7.62694 9.64686 7.3124 9.61719 7.00048C9.58618 6.67452 9.44362 6.35376 9.1585 5.71223Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                    </svg>
+                    <span>(99) 0021-1024</span>
+                </div>
+                <div class="coffee__socials">
+                    <a href="#" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M6.18182 10.3333C5.20406 10.3333 5 10.5252 5 11.4444V13.1111C5 14.0304 5.20406 14.2222 6.18182 14.2222H8.54545V20.8889C8.54545 21.8081 8.74951 22 9.72727 22H12.0909C13.0687 22 13.2727 21.8081 13.2727 20.8889V14.2222H15.9267C16.6683 14.2222 16.8594 14.0867 17.0631 13.4164L17.5696 11.7497C17.9185 10.6014 17.7035 10.3333 16.4332 10.3333H13.2727V7.55556C13.2727 6.94191 13.8018 6.44444 14.4545 6.44444H17.8182C18.7959 6.44444 19 6.25259 19 5.33333V3.11111C19 2.19185 18.7959 2 17.8182 2H14.4545C11.191 2 8.54545 4.48731 8.54545 7.55556V10.3333H6.18182Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                    <a href="#" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                            <path d="M3 21L10.5484 13.4516M21 3L13.4516 10.5484M13.4516 10.5484L8 3H3L10.5484 13.4516M13.4516 10.5484L21 21H16L10.5484 13.4516" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </a>
+    
+                    <a href="#" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                            <path d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                            <path d="M16.5 12C16.5 14.4853 14.4853 16.5 12 16.5C9.51472 16.5 7.5 14.4853 7.5 12C7.5 9.51472 9.51472 7.5 12 7.5C14.4853 7.5 16.5 9.51472 16.5 12Z" stroke="currentColor" stroke-width="1.5" />
+                            <path d="M17.5078 6.5L17.4988 6.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </a>
+    
+                    <a href="#" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                            <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 13.3789 2.27907 14.6926 2.78382 15.8877C3.06278 16.5481 3.20226 16.8784 3.21953 17.128C3.2368 17.3776 3.16334 17.6521 3.01642 18.2012L2 22L5.79877 20.9836C6.34788 20.8367 6.62244 20.7632 6.87202 20.7805C7.12161 20.7977 7.45185 20.9372 8.11235 21.2162C9.30745 21.7209 10.6211 22 12 22Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                            <path d="M8.58815 12.3773L9.45909 11.2956C9.82616 10.8397 10.2799 10.4153 10.3155 9.80826C10.3244 9.65494 10.2166 8.96657 10.0008 7.58986C9.91601 7.04881 9.41086 7 8.97332 7C8.40314 7 8.11805 7 7.83495 7.12931C7.47714 7.29275 7.10979 7.75231 7.02917 8.13733C6.96539 8.44196 7.01279 8.65187 7.10759 9.07169C7.51023 10.8548 8.45481 12.6158 9.91948 14.0805C11.3842 15.5452 13.1452 16.4898 14.9283 16.8924C15.3481 16.9872 15.558 17.0346 15.8627 16.9708C16.2477 16.8902 16.7072 16.5229 16.8707 16.165C17 15.8819 17 15.5969 17 15.0267C17 14.5891 16.9512 14.084 16.4101 13.9992C15.0334 13.7834 14.3451 13.6756 14.1917 13.6845C13.5847 13.7201 13.1603 14.1738 12.7044 14.5409L11.6227 15.4118" stroke="currentColor" stroke-width="1.5" />
+                        </svg>
+                    </a>
+    
+                </div>
+            </div>
+            <form action="#" class="contact__form">
+                <h2 class="heading">Entre em contato</h2>
+                <div class="input__box">
+                    <input type="text" placeholder="Nome" required>
+                    <input type="text" placeholder="E-mail" required>
+                    <textarea placeholder="Sua mensagem aqui"></textarea>
+                    <button class="btn__send" type="submit">Enviar</button>
+                </div>
+            </form>
+            
+        </div>
+    </section>
+
+    <footer>
+        <div class="top">
+            <a href="#" class="back-to-top">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                    <path d="M213.66,165.66a8,8,0,0,1-11.32,0L128,91.31,53.66,165.66a8,8,0,0,1-11.32-11.32l80-80a8,8,0,0,1,11.32,0l80,80A8,8,0,0,1,213.66,165.66Z"></path>
+                </svg>
+            </a>
+        </div>
+        <div class="footer__container">
+            <a href="#" class="logo__coffee">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                    <path d="M18.2505 10.5H19.6403C21.4918 10.5 22.0421 10.7655 21.9975 12.0838C21.9237 14.2674 20.939 16.8047 17 17.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                    <path d="M5.94627 20.6145C2.57185 18.02 2.07468 14.3401 2.00143 10.5001C1.96979 8.8413 2.45126 8.5 4.65919 8.5H15.3408C17.5487 8.5 18.0302 8.8413 17.9986 10.5001C17.9253 14.3401 17.4281 18.02 14.0537 20.6145C13.0934 21.3528 12.2831 21.5 10.9194 21.5H9.08064C7.71686 21.5 6.90658 21.3528 5.94627 20.6145Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                    <path d="M11.3089 2.5C10.7622 2.83861 10.0012 4 10.0012 5.5M7.53971 4C7.53971 4 7 4.5 7 5.5M14.0012 4C13.7279 4.1693 13.5 5 13.5 5.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                Coffee Brasil
+            </a>
+            <div class="footer__links">
+                <a href="#">Início</a>
+                <a href="#sobre-nos">Sobre nós</a>
+                <a href="#menu">Menu</a>
+                <a href="#nossa-equipe">Nossa equipe</a>
+                <a href="#avaliacoes">Avaliações</a>
+                <a href="#contatos">Contatos</a>
+            </div>
+        </div>
+        <div class="copyright"> 
+            <span>&copy; Copyright 2024 Coffee Brasil</span>
+            <span>Desenvolvido por Alexsandro</span>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/assets/src/js/main.js"></script>
+</body>
+</html>
