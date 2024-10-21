@@ -17,4 +17,11 @@
     --background-navigation: #fff;
     --underline-navlink: #fff;
     --sticky-underline-navlink-hover: #1e1e1e;
+
+    --shadow-search: rgba(0, 0, 0, 0.16);
+    --shadow-search-focus: #FFA55C;
+
+    --shadow-search-button: rgba(0, 0, 0, 0.2);
+    --search-button: #F8973C;
+    --search-button-hover: #f57700;
 }

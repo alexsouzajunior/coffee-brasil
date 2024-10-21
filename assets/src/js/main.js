@@ -3,7 +3,7 @@ const closeMenu = document.querySelector('.close');
 const menu = document.getElementById('menu');
 const overlay = document.querySelector('.overlay');
 const searchIcon = document.querySelectorAll('.bx-search');
-const searchInput = document.querySelectorAll('.search-input');
+const searchBox = document.querySelectorAll('.searchBox');
 const buttonsFilter = document.querySelectorAll('.buttons-filter .btn');
 const filterCards = document.querySelectorAll('.menu__card');
 const backToTop = document.querySelector('.back-to-top');
@@ -32,7 +32,7 @@ searchIcon.forEach((i) => {
         searchIcon.forEach((i) => {
             i.classList.toggle('bx-x');
         });
-        searchInput.forEach((search) => {
+        searchBox.forEach((search) => {
             search.classList.toggle('show');
         });
     });
